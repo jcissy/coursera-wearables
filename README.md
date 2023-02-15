@@ -24,7 +24,7 @@ The R file contains steps to:
 6. Merge the train and test data sets into one (1) dataframe
 7. Select only the requested variables: mean and standard deviation
 8. Create a tidy dataset that has the averages for each of the requested variables grouped by subject and activity
-9. Write tiday dataset to a file called "tidydataset.txt"
+9. Write tidy dataset to a file called "tidydataset.txt"
 
 ## The Sections of run_analysis.R
 Section 1: Set the file paths  
