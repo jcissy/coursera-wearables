@@ -27,7 +27,7 @@ The R file contains steps to:
 9. Write tiday dataset to a file called "tidydataset.txt"
 
 ## The Sections of run_analysis.R
-Section 1: Download the zip file and set the file paths  
+Section 1: Set the file paths  
 Section 2: Read the features.txt file and trim any whitespace from the labels  
 Section 3:  
 1. Read the train datasets: features, subjects, and activities  
