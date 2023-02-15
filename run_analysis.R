@@ -60,7 +60,7 @@ maindf[,1:66] <- maindf[,1:66] %>% mutate_all(as.numeric)
 activitylabels <- read.csv(paste0(datapath,"/activity_labels.txt"), sep=" ", header=FALSE)
 activitylabels <- activitylabels[,1:2]
 names(activitylabels) <- c("activityid","activityname")
-activitylabels$activityname <- tolower(sub("_","",activitylabels$activityname))
+activitylabels$activityname <- tolower(gsub("_","",activitylabels$activityname))
 maindf <- merge(x = maindf, y = activitylabels, by = "activityid", all.x=TRUE)
 
 ## SECTION 8
